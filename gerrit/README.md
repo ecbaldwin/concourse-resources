@@ -16,7 +16,7 @@ resource_types:
 - name: gerrit
   type: docker-image
   source:
-    repository: us.gcr.io/concourse-resources/gerrit-resource
+    repository: docker.cascade.money/concourse-resources/gerrit-resource
 ```
 
 ## Source Configuration
@@ -92,7 +92,7 @@ resource_types:
 - name: gerrit
   type: docker-image
   source:
-    repository: us.gcr.io/concourse-resources/gerrit-resource
+    repository: docker.cascade.money/concourse-resources/gerrit-resource
 
 resources:
 - name: example-gerrit
